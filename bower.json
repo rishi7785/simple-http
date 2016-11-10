@@ -1,0 +1,22 @@
+{
+  "name": "simple-http",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "rishi"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "public/lib"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.2"
+  }
+}

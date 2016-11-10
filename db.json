@@ -1,0 +1,11 @@
+{
+    "test":{
+        "message1": "This is a simple message "
+    }
+    "someroute": "Your have hit the test route.""
+}
+
+
+create a route called "someroute" in the db.json file.
+-create a new method in your HttpController that wioll call that route.
+connect a button on your http.html file to call that route
