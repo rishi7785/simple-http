@@ -5,6 +5,5 @@ var App;
         }
         return HomeController;
     }());
-    HomeController.$inject = ['home'];
     App.HomeController = HomeController;
 })(App || (App = {}));

@@ -4,18 +4,21 @@
         <meta charset="utf-8">
         <title>Hello </title>
     </head>
-    <body  ng-app="App">
+    <body ng-app="App">
+        <h1>simple HTTP</h1>
 
-
-        <div ui-view>
-
-        </div>
-        <script src="\js\app.js"></script>
-
-        </script>
+<nav>
+    <a href="/#/">home</a>
+    <a href="/#/">http</a>
+    <a href="/#/posts">posts</a>
+</nav>
+        <div ui-view></div>
         <script src="\lib\angular\angular.js"></script>
         <script src="\lib\angular-ui-router\release\angular-ui-router.js"> </script>
-        <script src ='\js\HttpController.js'></script>
+        <script src ="\js\HomeController.js"></script>
+        <script src="\js\PostController.js"></script>
+        <script src="\js\HttpController.js"></script>
+        <script src="\js\app.js"></script>
 
     </body>
 </html>

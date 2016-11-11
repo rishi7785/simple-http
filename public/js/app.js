@@ -16,6 +16,12 @@ var App;
                 templateUrl: 'templates/http.html',
                 controller: App.HttpController,
                 controllerAs: 'httpController'
+            })
+                .state('posts', {
+                url: '/posts',
+                templateUrl: 'templates/posts.html',
+                controller: App.PostController,
+                controllerAs: 'postController'
             });
         }
     ]);

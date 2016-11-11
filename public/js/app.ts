@@ -1,7 +1,6 @@
 namespace App {
     let app = angular.module ('App', ['ui.router']);
 
-
     app.config ([
         'stateProvider',
         ($stateProvider) => {
@@ -18,7 +17,14 @@ namespace App {
                 controller: App.HttpController,
                 controllerAs: 'httpController'
             })
+            .state ('posts', {
+                url: '/posts',
+                templateUrl: 'templates/posts.html',
+                controller: App.PostController,
+                controllerAs: 'postController'
+            });
 
-     }
- ])
+        }
+    ])
+
 }
